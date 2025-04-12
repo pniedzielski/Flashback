@@ -20,10 +20,6 @@ To further enhance your cinematic workflow, there is a Blender addon available t
 3. Install Flashback's JAR into your mods folder (.minecraft/mods)
 4. Run the game
 
-## Support
-
-If you need assistance installing or using the mod, feel free to join the [discord](https://discord.gg/flashbacktool) and ask for help in #support
-
 ## Contributing
 
 Flashback currently does not accept outside contributions
