@@ -67,6 +67,12 @@ public class EditorState {
                 this.replayVisuals.overrideFovAmount = config.internal.defaultOverrideFov;
             }
         }
+        if (config.internal.enableOverrideGammaByDefault) {
+            this.replayVisuals.overrideGamma = true;
+            if (this.replayVisuals.overrideGammaAmount < 0) {
+                this.replayVisuals.overrideGammaAmount = config.internal.defaultOverrideGamma;
+            }
+        }
     }
 
     @ApiStatus.Internal
