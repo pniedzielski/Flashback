@@ -191,6 +191,9 @@ public class FlashbackConfigV1 {
 
         public float defaultOverrideFov = 70.0f;
         public boolean enableOverrideFovByDefault = false;
+
+        public float defaultOverrideGamma = 1.0f;
+        public boolean enableOverrideGammaByDefault = false;
     }
 
     public SubcategoryInternalExport internalExport = new SubcategoryInternalExport();
