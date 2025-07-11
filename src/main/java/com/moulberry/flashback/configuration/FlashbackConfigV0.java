@@ -68,6 +68,9 @@ public class FlashbackConfigV0 {
     public float defaultOverrideFov = 70.0f;
     public boolean enableOverrideFovByDefault = false;
 
+    public float defaultOverrideGamma = 1.0f;
+    public boolean enableOverrideGammaByDefault = false;
+
     public ForceDefaultExportSettings forceDefaultExportSettings = new ForceDefaultExportSettings();
 
     public boolean filterUnnecessaryPackets = true;
@@ -118,6 +121,8 @@ public class FlashbackConfigV0 {
         config.internal.sortDescending = this.sortDescending;
         config.internal.defaultOverrideFov = this.defaultOverrideFov;
         config.internal.enableOverrideFovByDefault = this.enableOverrideFovByDefault;
+        config.internal.defaultOverrideGamma = this.defaultOverrideGamma;
+        config.internal.enableOverrideGammaByDefault = this.enableOverrideGammaByDefault;
 
         config.internalExport.resolution = this.resolution;
         config.internalExport.framerate = this.framerate;

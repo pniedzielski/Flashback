@@ -33,6 +33,9 @@ public class ReplayVisuals {
     public boolean overrideFov = false;
     public float overrideFovAmount = -1f;
 
+    public boolean overrideGamma = false;
+    public float overrideGammaAmount = -1f;
+
     public boolean overrideCameraShake = false;
     public boolean cameraShakeSplitParams = false;
     public float cameraShakeYFrequency = 1.0f;
@@ -64,6 +67,11 @@ public class ReplayVisuals {
 
         overrideFov = true;
         overrideFovAmount = fov;
+    }
+
+    public void setGamma(float gamma) {
+        overrideGamma = true;
+        overrideGammaAmount = gamma;
     }
 
     public void setCameraShake(float frequencyX, float amplitudeX, float frequencyY, float amplitudeY) {
